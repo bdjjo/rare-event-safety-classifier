@@ -18,8 +18,8 @@ it cannot move an unseen event ahead of a high-scoring benign message.
 
 **Evidence:** `docs/REPORT.md` and machine-readable results describe all three
 baselines, all five seeds, separate shifts, severity sweeps and calibration ablations.
-Trained model files for seed 17 are included in the downloadable bundle; they are
-excluded from Git by default and can be regenerated. Load only trusted joblib files.
+Trained model files for seed 17 are included under `results/models/` and in the
+downloadable bundle; they can also be regenerated. Load only trusted joblib files.
 
 **Limitations:** small authored templates, no real telemetry or independent human
 annotation, English only, fixed event prior, no demographic coverage study, no

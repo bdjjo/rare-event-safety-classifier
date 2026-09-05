@@ -41,6 +41,8 @@ Read the [detailed findings](docs/REPORT.md),
 Tested with Python **3.12.13**. Use Python 3.12 with the pinned dependencies.
 
 ```bash
+git clone https://github.com/bdjjo/rare-event-safety-classifier.git
+cd rare-event-safety-classifier
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -50,6 +52,8 @@ bash run_all.sh
 Windows PowerShell:
 
 ```powershell
+git clone https://github.com/bdjjo/rare-event-safety-classifier.git
+cd rare-event-safety-classifier
 py -3.12 -m venv .venv
 .venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
@@ -135,12 +139,17 @@ with unique `id`, nonempty `text`, and binary `label`; see the data card. This m
 does not claim a paired experiment or the synthetic counts and uses only one seed.
 The synthetic report builder is intentionally disabled for external data.
 
-## Output and publishing
+## Results and report
 
-The downloadable bundle includes seed-17 models and all 35 compressed primary-model
-prediction files. These are ignored by Git by default because they can be regenerated.
-Source, reports, result tables, figures and logs are ready to commit. Uploading is
-pending an accessible destination repository; see `GITHUB_UPLOAD.md` for exact commands.
+The repository includes the complete source, measured result tables, three benchmark
+figures, seed-17 trained models, and all 35 compressed primary-model prediction files.
+Read the [experiment report](docs/REPORT.md) for calibration diagnostics, error
+analysis, uncertainty, and limitations. Download the repository to inspect all
+artifacts locally, or regenerate them with the commands above.
+
+For a full-page illustrated presentation, `docs/index.html` contains the standalone
+report. GitHub Pages can publish it from `main` → `/docs`; see
+[GITHUB_UPLOAD.md](GITHUB_UPLOAD.md) for the publishing settings.
 
 ## Research extensions
 

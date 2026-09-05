@@ -1,45 +1,43 @@
-# GitHub upload status and exact steps
+# Repository and report publishing
 
-The implementation, experiments and report are complete. The connected GitHub
-account was verified as `bdjjo`. The intended repository
-`bdjjo/rare-event-safety-classifier` returned 404, and no relevant repository was
-listed among accessible repositories. No remote repository was changed.
+The complete project is organized in the repository at
+https://github.com/bdjjo/rare-event-safety-classifier.
 
-The available connection can write to an existing accessible repository but does
-not expose repository creation in this session. Create the empty repository with
-your chosen visibility and make it accessible to the GitHub connection, or provide
-the URL of the existing repository intended for this project. The upload request
-is already authorized; this is a missing destination/capability issue.
+## Browse the project
 
-## Manual upload to a new empty repository
+- `README.md`: project overview, measured headline results, and run instructions.
+- `src/rare_event/`, `scripts/`, `configs/`, `tests/`: implementation and validation.
+- `results/`: tables, figures, predictions, models, and experiment provenance.
+- `docs/REPORT.md`: detailed findings rendered directly by GitHub.
+- `docs/index.html`: standalone illustrated report for GitHub Pages.
 
-Create `rare-event-safety-classifier` under your account in GitHub, then from the
-extracted project folder run:
+## Publish the illustrated report
 
-```bash
-git init -b main
-git add .
-git commit -m "Implement calibrated rare-event safety benchmark and measured shift report"
-git remote add origin https://github.com/bdjjo/rare-event-safety-classifier.git
-git push -u origin main
-```
+In repository Settings → Pages, select **Deploy from a branch**, branch **main**,
+folder **/docs**, then Save. Wait for GitHub to confirm the deployment.
+The site address will be https://bdjjo.github.io/rare-event-safety-classifier/.
+This file does not indicate that Pages has already been enabled.
 
-If using an existing repository with its own files/history, clone it first and
-copy this project into the intended subdirectory or branch. Do not force-push.
+Add the deployed address to the repository About panel and pin the repository on
+your profile. Suggested topics: `ai-safety`, `machine-learning`, `calibration`,
+`distribution-shift`, `model-evaluation`, `python`.
 
-The default commit includes code, findings, scalar and budget results, error examples,
-figures and logs. Predictions and model files are excluded by `.gitignore` but present
-in the full bundle. Regenerate them using the documented command or, if desired,
-explicitly include them with:
+## Reproduce locally
 
 ```bash
-git add -f results/predictions results/models
-git commit -m "Include reproducible prediction and model artifacts"
-git push
+git clone https://github.com/bdjjo/rare-event-safety-classifier.git
+cd rare-event-safety-classifier
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+bash run_all.sh
 ```
 
-Suggested description: Calibrated rare-event safety detection with fixed-review-budget
-evaluation and a reproducible language-shift failure benchmark.
+On Windows, activate `.venv\Scripts\Activate.ps1` and use the individual Python
+commands documented in the README.
 
-Suggested topics: `ai-safety`, `machine-learning`, `calibration`, `evaluation`,
-`distribution-shift`, `model-monitoring`, `python`.
+## Release
+
+Optionally create a `v1.0.0` release and attach the full downloadable bundle. Describe
+it as a synthetic research benchmark. Preserve the distinction between measured
+results, proposed extensions, and validation that has not been performed.
