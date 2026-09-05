@@ -1,0 +1,4 @@
+PASS: 150 metric records; 750 budget rows; 35 prediction files.
+PASS: paired IDs/labels, exact capacities, raw/calibrated rank invariance, independently recomputed AP/Brier/TP.
+PASS: five regenerated test fingerprints and all core training-source checksums (src/ and run_pipeline.py).
+PASS: report builder and all report-input hashes; reporting provenance is separate from training.

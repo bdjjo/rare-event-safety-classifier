@@ -1,0 +1,12 @@
+{
+  "endpoint": "ID minus combined recall at 1% review",
+  "seed_count": 5,
+  "mean_drop": 1.0,
+  "seed_bootstrap95": [
+    1.0,
+    1.0
+  ],
+  "replicates": 2000,
+  "bootstrap_seed": 2026,
+  "scope": "Within synthetic generator only; five seed clusters; no real-world inference"
+}

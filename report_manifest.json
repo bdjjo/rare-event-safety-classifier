@@ -1,0 +1,12 @@
+{
+  "builder_sha256": "938d031d4ed6a2ea3e6def0b0a5cb958f9cfca164d110df7e18047dfae02c33c",
+  "input_sha256": {
+    "manifest.json": "730ca3471195fb144af1adc500f43031090737516094a58247e0cf60f1557eb1",
+    "metrics.json": "d0dd3473fd453eb07ede8cb82cfaad3ad66c8f84df6dc617f9ac92896fa67587",
+    "summary.csv": "dd2acfa4cf245a48857ecbd2cff667c7e5e2e59a673d572d2a8eb96d8a032bff",
+    "budget_metrics.csv": "a64b42ad511bd626bd0c1d2c410e761308126bbf67acb8159b299bff3a25a41c",
+    "subgroup_metrics.csv": "268b79d7a46fcebb68196c65dc66e9496eee53b17f9110a39dd6b71167cb51d5",
+    "features.json": "bebf6c8f3e9d59639501e60440ef9ac06b94d3edb07d2c3809c4fd192b43a999",
+    "error_examples.json": "2a8b55057dc71b8284f2072cffa0c7656790c810453054c1cb32ff5b62c06625"
+  }
+}

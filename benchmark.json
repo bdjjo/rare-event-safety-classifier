@@ -1,0 +1,13 @@
+{
+  "seeds": [17, 29, 43, 71, 101],
+  "n_train": 40000,
+  "n_calibration": 20000,
+  "n_policy": 20000,
+  "n_test": 40000,
+  "prevalence": 0.005,
+  "budgets": [0.001, 0.005, 0.01, 0.02, 0.05],
+  "policy_budget": 0.01,
+  "models": ["word_balanced", "word_unweighted", "char_balanced"],
+  "shift_strengths": [0.25, 0.5, 0.75],
+  "bootstrap_replicates": 2000
+}

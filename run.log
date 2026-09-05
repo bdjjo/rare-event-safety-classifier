@@ -1,0 +1,36 @@
+Seed 17: generating/loading separated splits
+Seed 17: fitting word_balanced
+Seed 17: completed word_balanced; elapsed 10.0s
+Seed 17: fitting word_unweighted
+Seed 17: completed word_unweighted; elapsed 13.5s
+Seed 17: fitting char_balanced
+Seed 17: completed char_balanced; elapsed 34.8s
+Seed 29: generating/loading separated splits
+Seed 29: fitting word_balanced
+Seed 29: completed word_balanced; elapsed 44.6s
+Seed 29: fitting word_unweighted
+Seed 29: completed word_unweighted; elapsed 48.3s
+Seed 29: fitting char_balanced
+Seed 29: completed char_balanced; elapsed 71.5s
+Seed 43: generating/loading separated splits
+Seed 43: fitting word_balanced
+Seed 43: completed word_balanced; elapsed 85.3s
+Seed 43: fitting word_unweighted
+Seed 43: completed word_unweighted; elapsed 89.1s
+Seed 43: fitting char_balanced
+Seed 43: completed char_balanced; elapsed 111.5s
+Seed 71: generating/loading separated splits
+Seed 71: fitting word_balanced
+Seed 71: completed word_balanced; elapsed 124.0s
+Seed 71: fitting word_unweighted
+Seed 71: completed word_unweighted; elapsed 127.7s
+Seed 71: fitting char_balanced
+Seed 71: completed char_balanced; elapsed 149.0s
+Seed 101: generating/loading separated splits
+Seed 101: fitting word_balanced
+Seed 101: completed word_balanced; elapsed 160.1s
+Seed 101: fitting word_unweighted
+Seed 101: completed word_unweighted; elapsed 163.8s
+Seed 101: fitting char_balanced
+Seed 101: completed char_balanced; elapsed 185.5s
+Finished. Results: /workspace/scratch/79f96811d0b3/rare-event-safety-classifier/results; elapsed 185.5s

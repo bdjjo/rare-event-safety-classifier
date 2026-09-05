@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+data/generated/
+results/models/
+results/predictions/
+results/smoke/
+.DS_Store

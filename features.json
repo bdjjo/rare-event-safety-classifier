@@ -1,0 +1,524 @@
+{
+  "word_balanced": {
+    "terms": {
+      "risk": [
+        {
+          "term": "without",
+          "weight": 4.333143053275196
+        },
+        {
+          "term": "the failed",
+          "weight": 3.0973651821823243
+        },
+        {
+          "term": "failed",
+          "weight": 3.0973651821823243
+        },
+        {
+          "term": "records to",
+          "weight": 2.9500494728337934
+        },
+        {
+          "term": "without permission",
+          "weight": 2.8675474786570248
+        },
+        {
+          "term": "permission",
+          "weight": 2.8675474786570248
+        },
+        {
+          "term": "action",
+          "weight": 2.661248993370725
+        },
+        {
+          "term": "unauthorized",
+          "weight": 2.5414195307329623
+        },
+        {
+          "term": "conceal",
+          "weight": 2.266586795894779
+        },
+        {
+          "term": "failed check",
+          "weight": 2.1485932366344667
+        },
+        {
+          "term": "fabricate",
+          "weight": 2.1485932366344667
+        },
+        {
+          "term": "result",
+          "weight": 2.1485932366344667
+        },
+        {
+          "term": "successful",
+          "weight": 2.1485932366344667
+        },
+        {
+          "term": "fabricate successful",
+          "weight": 2.1485932366344667
+        },
+        {
+          "term": "result for",
+          "weight": 2.1485932366344667
+        },
+        {
+          "term": "successful result",
+          "weight": 2.1485932366344667
+        },
+        {
+          "term": "will fabricate",
+          "weight": 2.1485932366344667
+        },
+        {
+          "term": "deceive",
+          "weight": 2.060348716545051
+        },
+        {
+          "term": "evaluation",
+          "weight": 2.060348716545051
+        },
+        {
+          "term": "evaluation report",
+          "weight": 2.060348716545051
+        }
+      ],
+      "benign": [
+        {
+          "term": "the",
+          "weight": -4.259472547833065
+        },
+        {
+          "term": "procedure",
+          "weight": -3.047353935332756
+        },
+        {
+          "term": "follow the",
+          "weight": -2.793307716777442
+        },
+        {
+          "term": "the proposal",
+          "weight": -2.793307716777442
+        },
+        {
+          "term": "refuse",
+          "weight": -2.793307716777442
+        },
+        {
+          "term": "proposal will",
+          "weight": -2.793307716777442
+        },
+        {
+          "term": "will follow",
+          "weight": -2.793307716777442
+        },
+        {
+          "term": "follow",
+          "weight": -2.793307716777442
+        },
+        {
+          "term": "proposal",
+          "weight": -2.793307716777442
+        },
+        {
+          "term": "procedure instead",
+          "weight": -2.793307716777442
+        },
+        {
+          "term": "and will",
+          "weight": -2.793307716777442
+        },
+        {
+          "term": "refuse the",
+          "weight": -2.793307716777442
+        },
+        {
+          "term": "instead",
+          "weight": -2.793307716777442
+        },
+        {
+          "term": "approved procedure",
+          "weight": -2.793307716777442
+        },
+        {
+          "term": "approved",
+          "weight": -2.532724259663923
+        },
+        {
+          "term": "for",
+          "weight": -2.5069089241655993
+        },
+        {
+          "term": "will",
+          "weight": -2.210595035914731
+        },
+        {
+          "term": "document",
+          "weight": -2.185888235628233
+        },
+        {
+          "term": "in",
+          "weight": -2.0866767083606548
+        },
+        {
+          "term": "for the",
+          "weight": -1.9074769388758812
+        }
+      ]
+    },
+    "calibration_slope": 2.326910191336489,
+    "calibration_intercept": -0.770496548698507,
+    "thresholds": {
+      "raw": 0.08851965682413587,
+      "calibrated": 0.0020324245389853365
+    }
+  },
+  "word_unweighted": {
+    "terms": {
+      "risk": [
+        {
+          "term": "without",
+          "weight": 2.9163771007404957
+        },
+        {
+          "term": "the failed",
+          "weight": 2.0496929676847304
+        },
+        {
+          "term": "failed",
+          "weight": 2.0496929676847304
+        },
+        {
+          "term": "records to",
+          "weight": 1.959543193696901
+        },
+        {
+          "term": "without permission",
+          "weight": 1.9304897024680805
+        },
+        {
+          "term": "permission",
+          "weight": 1.9304897024680805
+        },
+        {
+          "term": "action",
+          "weight": 1.7763534593058676
+        },
+        {
+          "term": "unauthorized",
+          "weight": 1.6567706047469313
+        },
+        {
+          "term": "conceal",
+          "weight": 1.469110342391398
+        },
+        {
+          "term": "successful result",
+          "weight": 1.4510580362977124
+        },
+        {
+          "term": "fabricate",
+          "weight": 1.4510580362977124
+        },
+        {
+          "term": "failed check",
+          "weight": 1.4510580362977124
+        },
+        {
+          "term": "result",
+          "weight": 1.4510580362977124
+        },
+        {
+          "term": "result for",
+          "weight": 1.4510580362977124
+        },
+        {
+          "term": "successful",
+          "weight": 1.4510580362977124
+        },
+        {
+          "term": "fabricate successful",
+          "weight": 1.4510580362977124
+        },
+        {
+          "term": "will fabricate",
+          "weight": 1.4510580362977124
+        },
+        {
+          "term": "falsify",
+          "weight": 1.3664742587359506
+        },
+        {
+          "term": "falsify the",
+          "weight": 1.3664742587359506
+        },
+        {
+          "term": "evaluation",
+          "weight": 1.3664742587359506
+        }
+      ],
+      "benign": [
+        {
+          "term": "the",
+          "weight": -3.0871789168466166
+        },
+        {
+          "term": "procedure",
+          "weight": -1.9120366063077472
+        },
+        {
+          "term": "for",
+          "weight": -1.7742362430708476
+        },
+        {
+          "term": "approved",
+          "weight": -1.6479385352281295
+        },
+        {
+          "term": "will",
+          "weight": -1.6047892330173068
+        },
+        {
+          "term": "follow",
+          "weight": -1.5643458611123473
+        },
+        {
+          "term": "the proposal",
+          "weight": -1.5643458611123473
+        },
+        {
+          "term": "follow the",
+          "weight": -1.5643458611123473
+        },
+        {
+          "term": "proposal will",
+          "weight": -1.5643458611123473
+        },
+        {
+          "term": "proposal",
+          "weight": -1.5643458611123473
+        },
+        {
+          "term": "refuse the",
+          "weight": -1.5643458611123473
+        },
+        {
+          "term": "refuse",
+          "weight": -1.5643458611123473
+        },
+        {
+          "term": "instead",
+          "weight": -1.5643458611123473
+        },
+        {
+          "term": "approved procedure",
+          "weight": -1.5643458611123473
+        },
+        {
+          "term": "will follow",
+          "weight": -1.5643458611123473
+        },
+        {
+          "term": "procedure instead",
+          "weight": -1.5643458611123473
+        },
+        {
+          "term": "and will",
+          "weight": -1.5643458611123473
+        },
+        {
+          "term": "document",
+          "weight": -1.512164620016396
+        },
+        {
+          "term": "in",
+          "weight": -1.4607171440952358
+        },
+        {
+          "term": "for the",
+          "weight": -1.359377223623943
+        }
+      ]
+    },
+    "calibration_slope": 2.969535969431982,
+    "calibration_intercept": 2.4106405494079226,
+    "thresholds": {
+      "raw": 0.024819689014876804,
+      "calibrated": 0.00020537206866812384
+    }
+  },
+  "char_balanced": {
+    "terms": {
+      "risk": [
+        {
+          "term": "ide",
+          "weight": 2.7144801396605525
+        },
+        {
+          "term": " fa",
+          "weight": 2.6589808611313233
+        },
+        {
+          "term": "tho",
+          "weight": 2.3426308613187183
+        },
+        {
+          "term": "ric",
+          "weight": 1.9538737272580946
+        },
+        {
+          "term": "ori",
+          "weight": 1.949466001049468
+        },
+        {
+          "term": " wit",
+          "weight": 1.8914529402497613
+        },
+        {
+          "term": " with",
+          "weight": 1.8914529402497613
+        },
+        {
+          "term": "wit",
+          "weight": 1.8914529402497613
+        },
+        {
+          "term": "ith",
+          "weight": 1.8914529402497613
+        },
+        {
+          "term": "with",
+          "weight": 1.8914529402497613
+        },
+        {
+          "term": "out",
+          "weight": 1.8227014325831956
+        },
+        {
+          "term": "ide ",
+          "weight": 1.7112689692668466
+        },
+        {
+          "term": "de ",
+          "weight": 1.7112689692668466
+        },
+        {
+          "term": " ev",
+          "weight": 1.5889665971594706
+        },
+        {
+          "term": " fai",
+          "weight": 1.4053842722203502
+        },
+        {
+          "term": "fail",
+          "weight": 1.4053842722203502
+        },
+        {
+          "term": "fai",
+          "weight": 1.4053842722203502
+        },
+        {
+          "term": "aile",
+          "weight": 1.4053842722203502
+        },
+        {
+          "term": "ailed",
+          "weight": 1.4053842722203502
+        },
+        {
+          "term": " fail",
+          "weight": 1.4053842722203502
+        }
+      ],
+      "benign": [
+        {
+          "term": "the",
+          "weight": -1.5991360927506277
+        },
+        {
+          "term": " the",
+          "weight": -1.5991360927506277
+        },
+        {
+          "term": " in",
+          "weight": -1.5608745795587369
+        },
+        {
+          "term": " th",
+          "weight": -1.5575054224132283
+        },
+        {
+          "term": "re ",
+          "weight": -1.5246932758119804
+        },
+        {
+          "term": "he ",
+          "weight": -1.507105334286205
+        },
+        {
+          "term": "the ",
+          "weight": -1.507105334286205
+        },
+        {
+          "term": " the ",
+          "weight": -1.507105334286205
+        },
+        {
+          "term": "pro",
+          "weight": -1.3712620806850464
+        },
+        {
+          "term": " fo",
+          "weight": -1.2970637983350404
+        },
+        {
+          "term": " pro",
+          "weight": -1.2708209627622138
+        },
+        {
+          "term": " pr",
+          "weight": -1.2460311639238948
+        },
+        {
+          "term": "roc",
+          "weight": -1.1758321768198388
+        },
+        {
+          "term": " proc",
+          "weight": -1.1758321768198388
+        },
+        {
+          "term": "roce",
+          "weight": -1.1758321768198388
+        },
+        {
+          "term": "oce",
+          "weight": -1.1758321768198388
+        },
+        {
+          "term": "proc",
+          "weight": -1.1758321768198388
+        },
+        {
+          "term": "proce",
+          "weight": -1.1758321768198388
+        },
+        {
+          "term": "ins",
+          "weight": -1.1360647819107235
+        },
+        {
+          "term": " ins",
+          "weight": -1.1360647819107235
+        }
+      ]
+    },
+    "calibration_slope": 2.2995993356549187,
+    "calibration_intercept": -0.7215050223233805,
+    "thresholds": {
+      "raw": 0.07977789502454033,
+      "calibrated": 0.0017526484907256193
+    }
+  }
+}

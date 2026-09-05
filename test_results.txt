@@ -1,0 +1,13 @@
+test_leakage_guard_and_metadata_removal (test_benchmark.DataTests.test_leakage_guard_and_metadata_removal) ... ok
+test_loader_validation (test_benchmark.DataTests.test_loader_validation) ... ok
+test_paired_shift_keeps_labels_and_ids (test_benchmark.DataTests.test_paired_shift_keeps_labels_and_ids) ... ok
+test_empty_alert_queue_is_defined (test_benchmark.MetricTests.test_empty_alert_queue_is_defined) ... ok
+test_exact_capacity_and_hand_computed_metrics (test_benchmark.MetricTests.test_exact_capacity_and_hand_computed_metrics) ... ok
+test_invalid_scores_and_wilson_boundary (test_benchmark.MetricTests.test_invalid_scores_and_wilson_boundary) ... ok
+test_ties_are_invariant_to_row_order (test_benchmark.MetricTests.test_ties_are_invariant_to_row_order) ... ok
+test_separate_calibration_and_monotonic_ranking (test_benchmark.ModelTests.test_separate_calibration_and_monotonic_ranking) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.103s
+
+OK
